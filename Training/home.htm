@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Training Bootstrap</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+		
+		<!-- [if it IE 9] -->
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<!-- [endif] -->	
+	</head>
+	<body style ="padding-top:60px;">
+		<!--  Navigation bar here -->
+		<div class="navbar navbar-fixed-top navbar-default bg-primary" style="background:#00FFFF" role="navigation">
+			<div class ="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toogle="collapse"
+					data-target=".navbar-collapse">
+						<span class="sr-only">
+						Toggle navigation</span>
+						<span class="icon-bar"/>
+						<span class="icon-bar"/>
+						<span class="icon-bar"/>
+					</button>
+					<a href=”#” class = "navbar-brand" style="color:white">
+					Training Bootstrap</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" style="color:white">Home</a></li>
+						<li><a href="profile.htm" style="color:white">Profile</a></li>
+						<li><a href="contact.htm" style="color:white">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Content website here -->
+		<div class="container clearfix">
+		
+		<!-- Slide Show -->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			<div class="item active">
+			  <img src="images/sore-hari.jpg" alt="sore-hari">
+			  <div class="carousel-caption">
+				<h3>Gang di kota Bandung</h3>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="images/kuil.jpg" alt="kuil">
+			  <div class="carousel-caption">
+				
+			  </div>
+			</div>
+			
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+			
+			<!-- Bagian Kiri -->
+			<div class="row row-offcanvas row-offcanvas-left">
+			<div class="col-md-6 sidebar-offcanvas" 
+			id="sidebar" role="navigation">
+				
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				  <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						  Biodata
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					  <div class="panel-body">
+						Hello saya Riku dan saya saat ini akan lulus dari kuliah.<br>
+						salam kenal ya. Berikut contoh dari hasil design grafik. <br>
+						yang saya buat. :)
+
+					  </div>
+					</div>
+				  </div>
+				
+				</div>
+				
+			</div>
+			
+			<!-- Bagian Kanan -->
+			<div id="main-content" class="col-md-6">
+				<div class="panel-body">
+				<table class="table table-bordered table-hover table-stripeddisplay" >
+					<thead>
+						<tr>
+							<th>Facebook</th>
+							<th>Twitter</th>
+							<th>Telepon</th>
+							<th>Alamat</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>riku@mail.com</td>
+							<td>@riku</td>
+							<td>(022) 232392</td>
+							<td>Jl. Mampang Prapatan no.132</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+		<!-- jQuery(necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-1-11-1.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		
+	</body>
+</html>
+	
